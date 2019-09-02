@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <metacharset="utf-8" />
+    <title>Dibujando con Canvas</title>
+    <linkrel="stylesheet"href="css/style.css">
+    <style src="./estilo.css">
+    body {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    font-family: sans-serif;
+    }
+  
+    p {
+    font-size: 1em;
+    }
+  
+    pspan {
+    font-weight: bold;
+    font-size: 1.2em;
+    }
+  
+    rango {
+    width: 300px;
+    background-color: red;
+    color: red;
+    }
+  
+    canvas {
+    background-color: #1C3643;
+    box-shadow: 05px5px0px#000;
+    }
+
+  </style>
+  </head>
+  <body>
+    <h1>Dibujando con Canvas</h1>
+    <p>Deslizar el control para dibujar</p>
+    <p><input type="range" id="rango" value="0" default="0" min="0" max="60" width="300"></p>
+    <canvas id="dibujo" width="300" height="300"></canvas>
+    <p>Hasta aquí llega <span>canvas</span></p>
+
+
+
+    <script type="text/javascript" src="./drawEyes.js">
+
+    
+    </script>
+  </body>
+</html>

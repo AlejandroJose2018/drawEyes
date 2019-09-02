@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    font-family: sans-serif;
+    }
+  
+    p {
+    font-size: 1em;
+    }
+  
+    pspan {
+    font-weight: bold;
+    font-size: 1.2em;
+    }
+  
+    rango {
+    width: 300px;
+    background-color: red;
+    color: red;
+    }
+  
+    canvas {
+    background-color: #1C3643;
+    box-shadow: 05px5px0px#000;
+    }
